@@ -33,11 +33,17 @@ div#imagem {
     background:rgb(251, 212, 161) url(../imagens/mapa.jpg) no-repeat;
     background-size: cover;
     height: 250px;
-    background-position: top center;
+    background-position: right top;
     
 }
 
 div#formulario{
     padding: 10px;
     display: block;
+}
+h1{
+    text-align: center;
+}
+.texto{
+    text-align: center;
 }
