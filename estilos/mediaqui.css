@@ -18,8 +18,12 @@
         float: right;
         width: 65%;
     }
+    .texto{
+        font-size: 1.0em;
+    }
+
 }
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media screen and (min-width:992px){
     body{
         background-image: linear-gradient(to top , rgb(174, 118, 44) , black);
     }
@@ -27,10 +31,16 @@
         width: 950px;
     }
     div#imagem{
-        background-position: right top;
         float: left;
+        background-position: right top;
         height: 100%;
         width: 40%;
     }
-    
+    section#formulario{
+        float: right;
+        width: 50%;
+    }
+    .texto{
+        font-size: 1.1em;
+    }
 }
