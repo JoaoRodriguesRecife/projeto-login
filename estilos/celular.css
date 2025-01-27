@@ -21,7 +21,7 @@ section#login{
         top: 50%;
         left: 50%;
         transform: translate(-50% , -50%);
-        height: 500px;
+        height: 505px;
         width: 260px;
         background-color: rgb(230, 179, 102);
         overflow: hidden;
@@ -49,11 +49,36 @@ h1{
     font-size: 0.8em;
     margin: 5px;
 }
+form div.campo{
+    background-color: rgb(102, 61, 7);
+    margin: 5px 0px;
+    border-radius: 7px;
+}
+div.campo > label{
+    display: none;
+    
+}
+div.campo i{
+    color: rgb(241, 210, 164);
+    font-size: 2em;
+    width: 30px;
+    padding: 5px;
+    }
+    div.campo > input{
+        background-color: rgb(218, 162, 31);
+        font-size: 1em;
+        width: calc(100% - 65px);
+        height: 100%;
+        border: 0px ;
+        border-radius: 7px;
+        padding: 7px;
+        transform: translateY(-7px);
+    
+    }
 form  input[type="submit"]{
     display: block;
     width: 100%;
     padding: 5px;
-    margin-top: 5px;
     border-radius: 10px;
     background-color: rgb(102, 61, 7);
     font-weight: bolder;

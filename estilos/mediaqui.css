@@ -12,11 +12,11 @@
         background-position: right top;
         float: left ;
         height: 100%;
-        width: 30%;
+        width: 40%;
     }
     div#formulario{
         float: right;
-        width: 65%;
+        width: 70%;
     }
     .texto{
         font-size: 1.0em;
@@ -41,10 +41,16 @@
     }
     section#formulario{
         float: right;
-        width: 50%;
+        width: 40%;
+        
     }
+
     .texto{
         font-size: 1.1em;
     }
     
+
+    /*add*/
+   
+
 }
