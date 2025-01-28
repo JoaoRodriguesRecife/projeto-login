@@ -6,7 +6,10 @@
         background-image: linear-gradient(to top , rgb(174, 118, 44) , black);
     }
     section#login{
-        width: 80vw;
+        width: 70vw;
+        height: 300px;
+        
+        
     }
     div#imagem{
         background-position: right top;
@@ -16,8 +19,9 @@
     }
     div#formulario{
         float: right;
-        width: 70%;
+        width: 56%;
     }
+    
     .texto{
         font-size: 1.0em;
     }
@@ -32,9 +36,10 @@
     }
     section#login{
         width: 950px;
+        height: 300px;
     }
     div#imagem{
-        float: left;
+        float: right;
         background-position: right top;
         height: 100%;
         width: 40%;
@@ -43,6 +48,22 @@
         float: right;
         width: 40%;
         
+    }
+    form div.campo{
+        width: 40%;
+       margin-left: 100px;
+
+    }
+    div.potaoenviar{
+        float: left;
+        width: 40%;
+        margin-left: 100px;
+        
+    }
+    div a.botao{
+        width: 40%;
+        margin-top: 40px;
+        margin-left: 100px;
     }
 
     .texto{
